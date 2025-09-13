@@ -15,6 +15,7 @@
 	$ages[1] = 25;
 	//print_r($ages);
 
+	//--------------------------------------
 	$ages[] = 10;
 	array_push($ages, 70);
 	//print_r($ages);
