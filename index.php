@@ -1,6 +1,6 @@
 <?php 
 
-	// indexed arrays
+	// ----------------------indexed arrays--------------------------------
 
 	$peopleOne = ['shaun', 'crystal', 'ryu'];
 	//echo $peopleOne[1];
@@ -24,20 +24,26 @@
 	//echo array_pop($ages);
 	//print_r($ages);
 
+	// count the elements in the array
 	//echo count($ages);
 
+	//metge two array together
 	$peopleThree = array_merge($peopleOne, $peopleTwo);
 	//print_r($peopleThree);
 
-	// associative array (key & value pairs)
+	// -----------------associative array (key & value pairs)---------------------
+	// [key1 => value1, key2 => value2 , ...];
 
 	$ninjasOne = ['shaun' => 'black', 'mario' => 'orange', 'luigi' => 'brown'];
+	// we could add whatever key and value type 
 	//echo $ninjasOne['mario'];
 	//print_r($ninjasOne);
 
 	$ninjasTwo = array('bowser' => 'green', 'peach' => 'yellow');
 	//print_r($ninjasTwo);
 
+
+	// adding a 
 	$ninjasTwo['toad'] = 'pink';
 
 	//echo count($ninjasTwo);
