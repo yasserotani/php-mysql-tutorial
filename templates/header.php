@@ -10,7 +10,7 @@ if ($_SERVER['QUERY_STRING'] == 'noname') {
 }
 
 // null coalesce
-$name = $_SESSION['name'] ?? 'Guest';
+$name = $_SESSION['name'] ?? 'Guest'; // Use ?? to provide a default if the variable is unset or null
 
 ?>
 
